@@ -1,0 +1,6 @@
+- name: run 
+  shell: echo 'hello world'
+  register: out
+- name: debug
+  debug:
+    msg: out
